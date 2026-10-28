@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#204b38">
+  <meta name="description" content="Shop your neighbourhood. Reserve fresh groceries online and pick them up when you're ready.">
+  <title>Quick Cart · Your neighbourhood, in a bag</title>
+  <link rel="icon" href="/static/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/static/styles.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <div class="announcement">A little less waiting. A little more living. <span>Order online. Pick up locally.</span></div>
+  <header class="header">
+    <a class="brand" href="#shop" aria-label="Quick Cart home"><span class="brand-icon">q<span>c</span></span>quick<span>cart</span><small>YOUR LOCAL, MADE SIMPLE</small></a>
+    <nav aria-label="Main navigation" id="nav"></nav>
+    <div class="header-actions" id="account"></div>
+  </header>
+  <main id="main" tabindex="-1"><div class="loading">Getting the good stuff ready…</div></main>
+  <footer><a class="footer-brand" href="#shop">quickcart<span>®</span></a><p>Good groceries. Less waiting. More life.</p><span>A local pickup MVP · Pay at the store</span></footer>
+  <dialog id="auth-dialog" aria-labelledby="auth-title"></dialog>
+  <dialog id="bag-dialog" aria-labelledby="bag-title"></dialog>
+  <dialog id="product-dialog" aria-labelledby="product-title"></dialog>
+  <dialog id="review-dialog" aria-labelledby="review-title"></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

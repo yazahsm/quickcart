@@ -1,0 +1,2 @@
+/* System fonts keep the demo fully usable without third-party requests. */
+html{scroll-behavior:smooth}button{font-family:inherit}::selection{background:#d7e1bd;color:#204b38}
